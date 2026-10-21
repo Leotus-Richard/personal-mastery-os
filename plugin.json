@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "personal-mastery-os",
+  "version": "1.0.0",
+  "description": "A suite of 4 agentic skills and cognitive workflows for self-education, systems thinking, original writing, and executive coaching.",
+  "author": {
+    "name": "Leotus-Richard"
+  },
+  "homepage": "https://github.com/Leotus-Richard/personal-mastery-os",
+  "repository": "https://github.com/Leotus-Richard/personal-mastery-os.git",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Personal Mastery OS",
+        "shortDescription": "Self-education, systems thinking, original writing, and coaching.",
+        "developerName": "Leotus-Richard",
+        "category": "Productivity"
+      }
+    }
+  }
+}
